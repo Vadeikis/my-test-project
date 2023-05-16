@@ -1,0 +1,74 @@
+:root {
+  --primary-color: #335d93;
+  --secondary-color: #203253;
+  --primary-background-color: #ffffff;
+  --secondary-backgroud-color: #f4faff;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--primary-color);
+  background-color: var(--primary-background-color);
+}
+
+/* Header */
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav-list .link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-color);
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: #72b3ea;
+}
+
+/* Hero */
+
+.hero {
+  background-color: #b1ddff;
+}
+
+.hero-title {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 1.18;
+}
+
+.hero-par {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.19;
+  list-style-image: url("../images/list_style.svg");
+}
+
+.hero-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #ffffff;
+  width: 467px;
+  height: 54px;
+  background: #203253;
+  border-radius: 16px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #335d93;
+}
